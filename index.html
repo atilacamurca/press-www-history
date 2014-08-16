@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>História da World Wide Web</title>
+    <meta charset='utf-8'>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/tipsy.css" rel="stylesheet" type="text/css">
+    <script src='js/slides.js'></script>
+    <script src='js/prettify.js'></script>
+    <script src='js/jquery.min.js'></script>
+    <script src='js/jquery.tipsy.js'></script>
+    <script>
+		$(function() {
+			$('.tip').tipsy();
+		});
+    </script>
+  </head>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+      <article>
+        <h1>
+          História da World Wide Web
+        </h1>
+        <br/>
+        <img src="images/caipirinha.jpg"/> Com uma dose de HTML5.
+        <p>
+          Átila Camurça
+          <br>
+          Jul 04, 2012
+        </p>
+      </article>
+
+      <article class='fill'>
+        <p>
+          <img src='images/wallpaper-1120633.jpg' alt="www">
+        </p>
+      </article>
+
+      <article>
+      	<h1>Era uma vez...</h1>
+      	<p>
+      		um estudante graduado em Engenharia de Sistemas pela Universidade de Oxford na Inglaterra
+      		inventou a World Wide Web em 1989. Ele escreveu o primeiro cliente e servidor web em 1990.
+      	</p>
+      </article>
+
+      <article>
+      	<h1>O início da World Wide Web</h1>
+      </article>
+
+      <article>
+      	<p>
+      		Tim Berners-Lee desenvolveu as primeiras especifições de URIs,
+      		<span title="HyperText Transfer Protocol" class="tip">HTTP</span> e HTML em 1991.
+      	</p>
+      	<p>
+      		Ele criou um servidor chamado "httpd" e um cliente chamado "WorldWideWeb", que era ao mesmo
+      		tempo editor e navegador tendo sido disponibilizado em 1991.
+      	</p>
+      	<p>
+      		Enquanto estudava construiu seu primeiro computador com ferro de solda, portas lógicas,
+      		um processador M6800 e uma TV antiga.
+      	</p>
+      </article>
+
+      <article>
+			<object data="images/timeline-1.svg" width="100%" type="image/svg+xml"></object>
+      </article>
+
+      <article>
+			<h2>HTML (HyperText Markup Language).</h2>
+			<p>
+				A ideia principal era utilizar Hypertexto para uma rápida navegação.
+			</p>
+			<p>
+				Hypertexto é um conceito inspirado pelo livro de Jorge Luis Borges chamado
+				"El Jardín de senderos que se bifurcan".
+			</p>
+			<p>
+				... the site offers different approaches to how you may interpret the
+				information provided, yet you're not trapped in the dilemma of choosing one
+				and eliminating others; you may choose to unfold all possibilities.
+			</p>
+      </article>
+
+      <article>
+			<p>
+				O primeiro site disponibilizado na internet foi o <a href="http://info.cern.ch/">
+				http://info.cern.ch/</a>. Foi no <a href="http://public.web.cern.ch/public/"
+				title="Organização Europeia para a Pesquisa Nuclear" class="tip">CERN</a>
+				que começou toda essa história.
+			</p><br/>
+			<h3>Começa a surgir os browsers</h3>
+			<p>
+				Já em 1993 surge um browser chamado Mosaic, um dos primeiros em modo gráfico
+				e que renderizava imagens junto com o HTML.
+			</p>
+      </article>
+
+      <article class='nobackground'>
+        <h3>
+          Um snapshot do site da CERN, criado em novembro de 1992
+        </h3>
+
+        <iframe src='source/www-project.html'></iframe>
+      </article>
+
+      <article class='nobackground'>
+        <h3>
+          Código fonte para um cliente http
+        </h3>
+
+		  <iframe src='source/source-www.html'></iframe>
+      </article>
+
+      <article class='nobackground'>
+        <h3>
+          Código fonte para um servidor http
+        </h3>
+
+		  <iframe src='source/source-httpd.html'></iframe>
+      </article>
+
+      <article>
+			<p>
+				Em maio de 1994, o <a href="http://public.web.cern.ch/public/"
+				title="Organização Europeia para a Pesquisa Nuclear" class="tip">CERN</a>
+				decidiu que qualquer pessoa poderia usar o
+				protocolo web e o código sem ter que pagar (royalty-free). Em setembro
+				do mesmo ano Tim junto com alguns parceiros fundaram o
+				<a href="http://www.w3.org/" title="World Wide Web Consortium" class="tip">W3C</a> no MIT.
+			</p>
+			<p>
+				A W3C foi criada criar padrões e recomendações para melhorar a qualidade da web.
+			</p>
+			<p>
+				Logo começa a surgir a necessidade de executar comandos do lado do cliente, eis
+				que surge a ideia do Javascript, 1995.
+			</p>
+      </article>
+
+      <article>
+      	<h1>A Web se torna popular</h1>
+      </article>
+
+      <article>
+			<p>
+				Brendan Eich da NetScape foi o desenvolvedor inicial do JavaScript, o qual
+				foi lançado em Março de 1996 junto com o NetScape Navigator 2.0.
+			</p>
+			<p>
+				Para não ficar para trás a M$ criou o LiveScript, um concorrente direto
+				para ser usado em seu Internet Explorer 3.0 em Agosto de 1996.
+			</p>
+			<p>
+				Devido essa guerra de browsers que se iniciava, a NetScape resolveu
+				entregar a padronização do JavaScript para a ECMA, em Novembro de 1996.
+			</p>
+      </article>
+
+      <article>
+			<object data="images/timeline-2.svg" width="100%" type="image/svg+xml"></object>
+      </article>
+
+      <article>
+      	<h3>Estilizando o HTML com CSS</h3>
+      	<p>
+				A apresentação das páginas HTML desde o início, ainda com Tim, já era
+				levada em conta, mas naquela época ele achava que isso era de responsabilidade
+				de cada browser.
+      	</p>
+      	<p>
+				A ideia do CSS começou a ser discutida em outubro de 1995 numa conferência chamada
+				"Mosaic and the Web". Com o tempo outros browsers também tentaram implementar
+				a apresentação de suas páginas.
+      	</p>
+      	<p>
+				Assim, após bastante discussões sobre o assunto, em Dezembro de 1996 a W3C
+				torna o CSS uma recomendação.
+      	</p>
+      	<h2>CSS (Cascading Style Sheets).</h2>
+      </article>
+
+      <article>
+			<h1>Guerra de Browsers</h1>
+			<!-- http://en.wikipedia.org/wiki/Browser_wars -->
+      </article>
+
+      <article>
+			<h3>Idade do Bit</h3>
+			<p>
+				O lançamento do browser Mosaic da NCSA em 1993, foi um marco na história do WWW,
+				pois muitas ideias provenientes dele até hoje são vistas.
+			</p>
+			<p>
+				Mais tarde um dos desenvolvedores chamado Marc Andreessen decide criar, a partir
+				do Mosaic, outro browser. Nascia ai o NetScape Navigator.
+			</p>
+			<p>
+				Em Agosto de 1995 a M$ lança o Internet Explorer 1.0. Para falar a verdade
+				ela licenciou o NCSA para criá-lo. Três meses depois lançam o IE 2.0.
+			</p>
+      </article>
+
+      <article>
+			<h3>A Reviravolta</h3>
+			<p>
+				Depois de um tempo o IE passou a ser disponibilizado de graça, enquanto o NetScape
+				era apenas para uso não comercial. Isso causou uma reviravolta.
+			</p>
+			<p>
+				O mundo web começava a ser dominado pelo IE. Por essa briga de interesses a web
+				começava a sofrer junto com os desenvolvedores.
+			</p>
+			<p>
+				O W3C ditava as regras, mas nem todos a seguiam. A sede pelo domínio era maior.
+				Essa disputa gerou incopatibilidades que até hoje devem ser combatidas.
+			</p>
+      </article>
+
+      <article>
+			<h1>Domination</h1>
+			<p>
+				Symphony X - Paradise Lost (2007)
+			</p>
+			<p>
+				<audio class="centered" src="media/My.Domination.ogg" controls/>
+			</p>
+      </article>
+
+      <article>
+			<p>
+				Alguns fatores foram importantes para que essa troca de poder fosse avassaladora.
+			</p>
+			<ul>
+				<li>
+					A NetScape, no início com 80% do mercado não poderia fazer como a M$ fez
+					e lançá-lo grátis. Ela não tinha tanto capital assim.
+				</li>
+				<li>
+					O IE vinha junto com o M$ Windows. Isso era uma comodidade muito grande
+					para o usuário.
+				</li>
+				<li>
+					Após a derrota a NetScape liberou o código-fonte para que outras empresas
+					pudessem começar a desenvolver melhor. Nascia ai o Firefox (e outros browsers).
+				</li>
+			</ul>
+      </article>
+
+      <article>
+			<h1>Curiosidades sobre os browsers</h1>
+      </article>
+
+      <article>
+			<ul>
+				<li>
+					O Opera inicio seu desenvolvimento em Janeiro de 1994, foi lançado em
+					1997 e tornou-se gratuito em Setembro de 2005.
+				</li>
+				<li>
+					Já existiu o IE for Unix/MacOS e até um tal de M$ Mobile Explorer. Todos
+					descontinuados.
+				</li>
+				<li>
+					A partir do código fonte do NetScape nasceram: Firefox, Epiphany, Camino, Sea Monkey.
+				</li>
+			</ul>
+      </article>
+
+      <article>
+			<h3>Opera e suas ideias inovadoras</h3>
+			<ul>
+				<li>
+					Gerenciador de Downloads (com suporte a BitTorrent) [v9]
+				</li>
+				<li>
+					Navegação em abas [v4]
+				</li>
+				<li>
+					Speed Dial (Página inicial com alguns favoritos) [v9.2]
+				</li>
+				<li>
+					Zoom em páginas
+				</li>
+				<li>
+					HotClick (Selecionar um trecho e fazer busca, etc.) [v6]
+				</li>
+			</ul>
+      </article>
+
+      <article>
+			<object data="images/timeline-3.svg" width="100%" type="image/svg+xml"></object>
+      </article>
+
+      <article>
+			<object data="images/w3c-hierarchy.svg" width="100%" type="image/svg+xml"></object>
+      </article>
+
+      <article class="nobackground">
+			<h3>
+				Estatísticas de uso dos browsers
+         </h3>
+			<iframe src='source/chart-browsers.html'></iframe>
+			<div class='source'>
+          Fonte: <a href="http://gs.statcounter.com/">StatCounter</a>
+        </div>
+      </article>
+
+      <article>
+			<h2>O Futuro da World Wide Web</h2>
+			<object data="images/HTML5_logo.svg" width="40%" type="image/svg+xml"></object>
+      </article>
+
+      <article class="nobackground">
+			<h3>
+				Jogos em HTML5
+         </h3>
+			<iframe src='pacman-html5/index.html'></iframe>
+			<div class='source'>
+          Fonte: <a href="http://arandomurl.com/2010/07/25/html5-pacman.html">arandomurl.com</a>
+        </div>
+      </article>
+
+      <article>
+			<h3>Harder, Better, Faster, Stronger</h3>
+			<p>
+				Daft Punk - Discovery (2001)
+			</p>
+			<p>
+				<video class="centered" src="media/HarderBetterFasterStronger.webm"
+					width="640" height="480" controls/>
+			</p>
+      </article>
+
+    </section>
+  </body>
+</html>

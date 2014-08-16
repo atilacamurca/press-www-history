@@ -1,0 +1,106 @@
+webkit python
+=============
+
+http://code.google.com/p/pywebkitgtk/
+http://www.tuxradar.com/content/python-pygtk-webkit-20-minutes
+
+pygmentize
+==========
+
+http://pygments.org/docs/quickstart/
+
+w3c
+===
+http://www.w3.org/People/Berners-Lee/Overview.html
+
+historia dos browsers
+=====================
+
+http://www.computerhistory.org/internet_history/internet_history_90s.html
+http://informatica.hsw.uol.com.br/firefox1.htm
+http://pt.wikipedia.org/wiki/Mosaic
+http://pt.wikipedia.org/wiki/Internet_Explorer
+http://pt.wikipedia.org/wiki/Mozilla_Firefox
+
+http://en.wikipedia.org/wiki/Browser_wars
+
+http://en.wikipedia.org/wiki/List_of_websites_founded_before_1995
+http://en.wikipedia.org/wiki/History_of_the_World_Wide_Web
+http://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_Europeia_para_a_Pesquisa_Nuclear
+
+Javascript
+==========
+
+Brendan Eich é CTO da Mozilla e amplamente reconhecido por suas contribuições para a evolução da Internet. Em 1995, Eich inventou o JavaScript (ECMAScript), a linguagem de programação mais utilizada na internet. Ele também é um dos co-fundadores do projeto Mozilla.org em 1998, atuando como arquiteto chefe. Eich ajudou no lançamento do Firefox em novembro de 2004 e do ThunderBird em dezembro de 2004. Hoje, o foco central de Eich está em guiar o trabalho técnico futuro da Mozilla, para mante-la forte e competitiva. Na grande comunidade Web, Eich permanece dedicado em veicular a inovação nas tecnologias para internet e seu trabalho com JavaScript e com as plataformas Mozilla. Em agosto de 2005, Eich se tornou CTO da Mozilla. Ele também tem sido um membro do conselho da Mozilla Fundation desde sua criação, em 2003. Ele é Bacharel em Matemática e Ciências da Computação, graduado na Universidade de Santa Clara, e também é Md. em Ciências da Computação pela Universidade de Illinois.
+
+https://developer.mozilla.org/en/JavaScript/Language_Resources
+
+http://en.wikipedia.org/wiki/ECMAScript
+http://benjishults.com/ipjs/JavaScript/section10/index.html
+
+ECMA
+++++
+
+ECMA-119 – CD-ROM volume and filestructure (later known as ISO 9660)
+
+--------------------------------------------------------------------------------
+
+HTML
+====
+
+http://en.wikipedia.org/wiki/United_States_Microsoft_antitrust_case
+http://www.justice.gov/atr/cases/ms_index.htm
+
+http://www.whatwg.org/specs/web-apps/current-work/#history-1
+
+The idea that HTML's evolution should be reopened was tested at a W3C workshop in 2004, where some of the principles that underlie the HTML5 work (described below), as well as the aforementioned early draft proposal covering just forms-related features
+
+In 2006, the W3C indicated an interest to participate in the development of HTML5 after all, and in 2007 formed a working group chartered to work with the WHATWG on the development of the HTML5 specification. Apple, Mozilla, and Opera allowed the W3C to publish the specification under the W3C copyright, while keeping a version with the less restrictive license on the WHATWG site.
+
+================================================================================
+
+1.6 History
+
+Ready for first implementations
+Latest Internet Explorer beta: unknownLatest Firefox trunk nightly build: unknownLatest WebKit or Chromium trunk build: unknownLatest Opera beta or preview build: unknownJavaScript libraries, plugins, etc: unknown
+2009-10-23 Hixie
+This section is non-normative.
+
+For its first five years (1990-1995), HTML went through a number of revisions and experienced a number of extensions, primarily hosted first at CERN, and then at the IETF.
+
+With the creation of the W3C, HTML's development changed venue again. A first abortive attempt at extending HTML in 1995 known as HTML 3.0 then made way to a more pragmatic approach known as HTML 3.2, which was completed in 1997. HTML4 quickly followed later that same year.
+
+The following year, the W3C membership decided to stop evolving HTML and instead begin work on an XML-based equivalent, called XHTML. This effort started with a reformulation of HTML4 in XML, known as XHTML 1.0, which added no new features except the new serialization, and which was completed in 2000. After XHTML 1.0, the W3C's focus turned to making it easier for other working groups to extend XHTML, under the banner of XHTML Modularization. In parallel with this, the W3C also worked on a new language that was not compatible with the earlier HTML and XHTML languages, calling it XHTML2.
+
+Around the time that HTML's evolution was stopped in 1998, parts of the API for HTML developed by browser vendors were specified and published under the name DOM Level 1 (in 1998) and DOM Level 2 Core and DOM Level 2 HTML (starting in 2000 and culminating in 2003). These efforts then petered out, with some DOM Level 3 specifications published in 2004 but the working group being closed before all the Level 3 drafts were completed.
+
+In 2003, the publication of XForms, a technology which was positioned as the next generation of Web forms, sparked a renewed interest in evolving HTML itself, rather than finding replacements for it. This interest was borne from the realization that XML's deployment as a Web technology was limited to entirely new technologies (like RSS and later Atom), rather than as a replacement for existing deployed technologies (like HTML).
+
+A proof of concept to show that it was possible to extend HTML4's forms to provide many of the features that XForms 1.0 introduced, without requiring browsers to implement rendering engines that were incompatible with existing HTML Web pages, was the first result of this renewed interest. At this early stage, while the draft was already publicly available, and input was already being solicited from all sources, the specification was only under Opera Software's copyright.
+
+The idea that HTML's evolution should be reopened was tested at a W3C workshop in 2004, where some of the principles that underlie the HTML5 work (described below), as well as the aforementioned early draft proposal covering just forms-related features, were presented to the W3C jointly by Mozilla and Opera. The proposal was rejected on the grounds that the proposal conflicted with the previously chosen direction for the Web's evolution; the W3C staff and membership voted to continue developing XML-based replacements instead.
+
+Shortly thereafter, Apple, Mozilla, and Opera jointly announced their intent to continue working on the effort under the umbrella of a new venue called the WHATWG. A public mailing list was created, and the draft was moved to the WHATWG site. The copyright was subsequently amended to be jointly owned by all three vendors, and to allow reuse of the specification.
+
+The WHATWG was based on several core principles, in particular that technologies need to be backwards compatible, that specifications and implementations need to match even if this means changing the specification rather than the implementations, and that specifications need to be detailed enough that implementations can achieve complete interoperability without reverse-engineering each other.
+
+The latter requirement in particular required that the scope of the HTML5 specification include what had previously been specified in three separate documents: HTML4, XHTML1, and DOM2 HTML. It also meant including significantly more detail than had previously been considered the norm.
+
+In 2006, the W3C indicated an interest to participate in the development of HTML5 after all, and in 2007 formed a working group chartered to work with the WHATWG on the development of the HTML5 specification. Apple, Mozilla, and Opera allowed the W3C to publish the specification under the W3C copyright, while keeping a version with the less restrictive license on the WHATWG site.
+
+Since then, both groups have been working together.
+
+A separate document has been published by the W3C HTML working group to document the differences between the HTML specified in this document and the language described in the HTML4 specification.
+
+--------------------------------------------------------------------------------
+
+CSS
+===
+
+https://developer.mozilla.org/en/CSS/CSS3
+http://www.w3.org/Style/LieBos2e/history/
+
+TimelineJS
+==========
+
+https://github.com/VeriteCo/TimelineJS

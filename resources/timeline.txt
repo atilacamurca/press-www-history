@@ -1,0 +1,26 @@
+TIMELINE
+
+1993:
+	lançado Mosaic, primeiro a rederizar imagens.
+
+1994:
+	setembro: fundado o W3C.
+
+1995:
+	dezembro: javascript
+
+1996:
+	março: lançado netscape com suporte ao javaScript;
+			 lançado opera 2.0.
+	agosto: MS lança jscript junto com IE 3
+	novembro: inicio da padronização do javaScript pelo ECMA.
+	dezembro: CSS torna-se uma recomendação do W3C.
+
+1997:
+	junho: primeira versão da padronização, ECMA-262.
+
+2003:
+	abril: lançamento do firefox.
+
+2011:
+	agosto: opera lança browser com suporte total ao ECMA-262 ed.5
